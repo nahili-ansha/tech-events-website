@@ -2,6 +2,8 @@
 ## Description
 This site provides information about the event, including schedule, resources, and an RSVP form with dark mode support.
 
+![Tech Events Demo]("C:\Users\nahil\OneDrive\Desktop\All in One\Projects\Project-Videos\Tech Career Workshop.gif")
+
 ## Features
 - Responsive event landing page with modern layout
 - Navigation bar for easy section access
