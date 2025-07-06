@@ -14,7 +14,7 @@ This site provides information about the event, including schedule, resources, a
 - **index.html**: Main HTML file for the website
 - **index.js**: JavaScript for interactivity (dark mode, RSVP, modal)
 - **styles.css**: CSS styles and variables
-- - **index.js**: Event images and icons
+- **img/**: Event images and icons
 
  ## Getting Started
  1. Clone the Repo
