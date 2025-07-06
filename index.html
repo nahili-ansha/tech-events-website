@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- head
+
+        Purpose:
+        - Title used here shows up in the browser tab
+        - Link to the favicon (small image that appears in the browser tab)
+        - Link to the CSS file (used to style the webpage)
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) (favicon)
+        - [ ] Any time after
+        -->
+        <title>Tech Workshop</title>
+        <link rel="icon" href="./img/Icon.jpg">
+        <link rel="stylesheet" href="styles.css">
+        
+    </head>
+    
+    <body>
+    
+        <!-- navbar
+
+        Purpose:
+        - Navigation bar that allows users to jump to different sections of the webpage
+        - Also holds buttons for user settings (dark mode, reduce motion)
+
+        When To Modify:
+        - [ ] Project 4 (REQUIRED FEATURE)
+        - [ ] Project 5 (REQUIRED FEATURE) 
+        - [ ] Project 8 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        -->
+        <div class="navbar">
+                <ul>
+                    <li><a href="#top">About the Event</a></li>
+                    <li><a href="#middle">Event Schedule</a></li>
+                    <li><a href="#bottom">Resources</a></li>
+                    <li><button id="theme-button"> Toogle Dark Mode</button></li>
+                </ul>
+            
+        </div>
+
+        <!-- headings
+
+        Purpose:
+        - Main header section of the webpage
+        - Contains the title, subtitle, image, and key buttons for the webpage
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 3 (REQUIRED FEATURE) 
+        - [ ] Project 4 (REQUIRED FEATURE) 
+        - [ ] Any time after
+        -->
+        <div class="header-container">
+            <div id="header-item">
+                <img id="header-img" src="./img/Header.jpg" />
+            </div>
+            <div id="header-item">
+                <h1>Tech Career Prep Workshop</h1>
+                <h3>Level Up Your Tech Career: Resume, Interviews & Networking!</h3>
+                <button type="button" class="header-button">Register Now</button>
+                <button type="button" class="header-button">Learn More</button>
+            </div>
+        </div>
+        
+        
+
+        
+        <!-- about
+
+        Purpose:
+        - Section for general info about the event
+        - Contains a video, description, and key points about the event
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="top">About the Event</h2>
+        <p> Now in its 3rd year, the Tech Career Prep Workshop has helped over 500 students build strong resumes, ace technical interviews, and expand their professional networks. This year, we’re bringing even more hands-on activities and expert guidance to help you land your dream tech job.</p>
+        <p>With over 3 hours of interactive sessions, you’ll gain practical insights from industry professionals, engage in mock interviews, and receive personalized feedback to improve your career prospects.</p>
+        <p>Last year, 85% of attendees reported feeling more confident in their job search, and many secured internships at top companies like Google, Microsoft, and Amazon. Don’t miss this opportunity to level up your career!</p>
+
+        <h3>What to Expect</h3>
+        <h4>Boost Your Career with Hands-On Guidance</h4>
+
+        <div class="expectation-container">
+
+            <div class="expectation-item">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/VyJ-ksaAsFo?si=xRAQCVX3KqU9dNLr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          
+            <div class="expectation-item">
+                <ul>
+                    <li> <b>Resume Review:</b> <i>Get expert feedback to make your resume stand out to recruiters.</i></li>
+                    <li> <b>Technical Interview Tips:</b> <i>Learn key strategies to tackle coding challenges with confidence.</i></li>
+                    <li> <b>Networking Opportunities:</b> <i>Connect with peers and industry professionals to grow your career.</i></li>
+                </ul>
+            </div>
+           
+        </div>
+       
+
+        <!-- schedule
+
+        Purpose:
+        - Section for specific info about the event's schedule
+        - Contains images and descriptions of each activity
+
+        When To Modify:
+        - [ ] Project 2 (REQUIRED FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="middle">Event Schedule</h2>
+
+        <div class= "event-container">
+
+            <div id="event-item">
+                <img alt="Resume Workshop" src="./img/Resume Workshop.png" width="300" height="270"/>
+                <h3>Resume Workshop (2:00 - 2:45 PM)</h3>
+                <p>Kick off the event with a hands on resume building session. Get real time feedback from experienced members.</p>
+            </div>
+
+            <div id="event-item">
+                <img alt="Technical Interview Prep" src="./img/Technical Internview.jpg" width="300" height="250"/>
+                <h3>Technical Interview Prep (3:00 - 3:45 PM)</h3>
+                <p>Understand the format of technical interviews and practice solving common coding problems.</p>
+            </div>
+
+            <div id="event-item">
+                <img alt="Networking & Career Tips" src="./img/networking_tips_graphics_.png" width="300" height="400"/>
+                <h3>Networking & Career Tips (4:00 - 4:30 PM)</h3>
+                <p>Wrap up the event with a networking session where you'll learn how to build meaningful connections in tech.</p>
+            </div>
+            
+        </div>
+       
+       <!-- rsvp
+
+Purpose:
+- Section for users to sign up for the event
+- Contains a form for users to input their information, 
+and a list of other users who have signed up
+
+When To Modify:
+- [ ] Project 6 (REQUIRED FEATURE) 
+- [ ] Project 6 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+<div id="rsvp">
+
+    <h2>RSVP</h2>
+    <p id="rsvp-count">⭐ 3 people have RSVP'd to this event!</p>
+
+    <div class="rsvp-container">
+
+        <div class="rsvp-para">
+            <!-- info goes here -->
+            We’ve got some exciting events coming up, and we’d love to have you there! These gatherings are all about bringing people together to learn, grow, and have some fun in the process. You’ll get the chance to explore new topics, hear from amazing speakers, connect with others who share your interests, and maybe even discover something totally unexpected.
+
+            By RSVPing, you’re not just saving your spot—you’re helping us create a better experience for everyone. It gives us a heads-up on how many people to expect, helps us plan food, materials, and space, and makes sure you stay in the loop with any updates or changes. It only takes a minute, and it makes a big difference.
+            
+            So if you’re thinking of coming, go ahead and hit that RSVP button. We can’t wait to see you there and make some great memories together!
+        </div>
+
+        <div class="rsvp-participants">
+            <p>🎟️ DJ from Texas has RSVP'd.</p>
+            <p>🎟️ Amy from New York has RSVP'd.</p>
+            <p>🎟️ Teresa from Montana has RSVP'd.</p>
+        </div>
+
+    </div>
+
+    <!--- Sign RSVP Form --->
+    <div class="form-container">
+        <form id="rsvp-form" title="rsvp-form">
+            <!-- form inputs go here -->
+             <label for="name">Name</label>
+             <input type="text", id="name", placeholder="Full Name">
+
+             <label for="state">State</label>
+             <input type="text", id="state", placeholder="State">
+
+             <label for="email">Email</label>
+             <input type="text", id="email", placeholder="Email">
+
+             <label for="phonenumber">Phone Number</label>
+             <input type="text", id="phonenumber", placeholder="Phone Number">
+        </form>
+        <!-- Submit button -->
+    </br> <button id="rsvp-button">Submit RSVP</button>
+    </div>  
+
+</div>
+
+<!-- success modal
+
+Purpose:
+- Modal that appears when a user successfully signs up for the event
+- Contains a personalized message and image
+
+When To Modify:
+- [ ] Project 9 (REQUIRED FEATURE)
+- [ ] Project 9 (STRETCH FEATURE) 
+- [ ] Any time after
+--> 
+
+<div id="success-modal" class="modal">
+
+    <div class="modal-container">
+
+        <div id="modal-item">
+            <p id="modal-text"> You are now an official participant in the Tech Career Workshop. Pack your computer and prepare for launch!</p>
+        </div>
+
+        <div id="modal-item">
+            <img src="./img/Header.jpg" id="modal-img"/>
+        </div>
+
+    </div>
+
+</div>
+
+
+        <!-- links
+
+        Purpose:
+        - Links to other resources related to the event
+
+        When To Modify:
+        - [ ] Project 2 (STRETCH FEATURE) 
+        - [ ] Project 4 (STRETCH FEATURE) 
+        - [ ] Any time between / after
+        --> 
+        <h2 id="bottom">Resources</h2>
+
+        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+        <div class="resources-container">
+            <a class="block" href="https://www.codepath.org">
+                <article>
+                    <h3>CodePath: Technical Interview Prep </h3>
+                    <p>Learn how to takle technical interviews with confidence through CodePath's free training programs.</p>
+                </article>
+            </a>
+    
+            <a class="block" href="https://www.pesto.tech/resources/10-tips-for-improving-your-tech-resume-in-2024">
+                <article>
+                    <h3>10 Resume Tips for Tech Job Seekers</h3>
+                    <p>Discover key resume strategies that can help you stand out in the competitive tech job market.</p>
+                </article>
+            </a>
+    
+            
+            <!--<a class="block" href="https://www.codecademy.com/resources/blog/whiteboard-interview-tips/">
+                <article>
+                    <h3>Whiteboarding Tips for Technical Interviews</h3>
+                    <p>Master the art of whiteboarding with these practical tips from HackerRank.</p>
+                </article>
+            </a> -->
+            
+    
+            <a class="block" href="https://www.forbes.com/sites/forbescoachescouncil/2022/03/07/effective-networking-strategies-for-tech-professionals">
+                <article>
+                    <h3>Effective Networking Strategies for Tech professionals</h3>
+                    <p>Learn how to build valuable professional connections that can boost your tech career.</p>
+                </article>
+            </a>
+    
+        </div>
+        
+            
+        <!-- footer [PLACEHOLDER] [ADDED IN UNIT 3] -->
+        <!-- script [PLACEHOLDER] [ADDED IN UNIT 5] -->
+         <div class="footer">
+            <p>
+                <a href="">Learn More</a>
+                <a href="">Contact Us</a>
+            </p>
+         </div>
+
+    <script src="index.js"></script>
+
+    </body>
+</html>
