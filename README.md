@@ -2,6 +2,9 @@
 ## Description
 This site provides information about the event, including schedule, resources, and an RSVP form with dark mode support.
 
+![Demo](https://github.com/nahili-ansha/tech-events-website/blob/main/Tech%20Career%20Workshop.gif
+)
+
 ## Features
 - Responsive event landing page with modern layout
 - Navigation bar for easy section access
