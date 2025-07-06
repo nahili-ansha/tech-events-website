@@ -20,7 +20,8 @@ This site provides information about the event, including schedule, resources, a
  1. **Clone the Repo**
   ```sh
    git clone https://github.com/nahili-ansha/tech-events-website.git
-   cd tech-events-website
+   cd tech-events-website```
+
  2. **Open index.html in your browser**
 
 ## Usage
